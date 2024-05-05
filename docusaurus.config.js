@@ -106,6 +106,12 @@ const config = {
             label: "🛠️ 应用工具",
             position: "left",
             items: [
+              
+              {
+                label: "龙的主页",
+                href: "https://home.long0617.cn/",
+              },
+              
               {
                 label: "脚本扩展",
                 to: "/docs/guides/extension",
