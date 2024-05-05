@@ -11,7 +11,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "AiShort(ChatGPT Shortcut)-AI Prompt Management,Productivity Tool",
+  title: "AiWords(ChatGPT Shortcut)-AI Prompt Management,Productivity Tool",
   // tagline: '方便中文使用 ChatGPT 快捷指令',
   favicon: "img/favicon.ico",
 
@@ -85,7 +85,7 @@ const config = {
       ],
       navbar: {
         hideOnScroll: true,
-        title: "AI Short",
+        title: "AI Words",
         logo: {
           alt: "ChatGPT Shortcuts",
           src: "img/logo.svg",
@@ -112,7 +112,7 @@ const config = {
               },
               {
                 label: "IMGPrompt",
-                href: "https://prompt.newzone.top/",
+                href: "https://imgprompt.aitoolss.cn/",
               },
               {
                 label: "文字处理",
@@ -137,10 +137,7 @@ const config = {
                 label: "📝 提交反馈",
                 to: "/feedback",
               },
-              {
-                label: "💬 加入 QQ 群",
-                href: "https://img.newzone.top/qq736094782.jpg?imageMogr2/format/webp",
-              },
+            
               {
                 label: "📺 加入 Discord",
                 href: "https://discord.gg/PZTQfJ4GjX",
@@ -149,18 +146,14 @@ const config = {
           },
           // remove the language dropdown from the navbar (if you only have one language)
           { type: "localeDropdown", position: "right" },
-          {
-            href: "https://qm.qq.com/q/sHgB9eqd6E",
-            position: "right",
-            className: "header-qq-link",
-          },
+          
           {
             href: "https://discord.gg/PZTQfJ4GjX",
             position: "right",
             className: "header-discord-link",
           },
           {
-            href: "https://github.com/rockbenben/ChatGPT-Shortcut",
+            href: "https://github.com/Dragon617/ChatGPT-Shortcut",
             position: "right",
             className: "header-github-link",
           },
@@ -168,7 +161,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} AiShort (ChatGPT Shortcut)`,
+        copyright: `Copyright © ${new Date().getFullYear()} LONGSHAO (ChatGPT Shortcut)`,
       },
       prism: {
         theme: prismThemes.github,
