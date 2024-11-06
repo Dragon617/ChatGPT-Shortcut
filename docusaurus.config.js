@@ -118,7 +118,7 @@ const config = {
               
               {
                 label: "脚本扩展",
-                to: "/docs/guides/extension",
+                to: "/docs/extension",
               },
               {
                 label: "IMGPrompt",
